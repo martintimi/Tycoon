@@ -9,9 +9,13 @@ h2{
  font-size: 36px !important;
  padding: 10px 0;
 }
+p{
+  padding: 20px  0;
+}
 h3{
   color: #121212 !important;
   font-weight: 700 !important;
+  padding: 10px 0;
 }
 h5{
   color: #121212 !important;
@@ -289,7 +293,8 @@ button.download{
 
 /************ Features Css ************/
 .features{
-  padding: 100px 0 100px 0;
+  position: relative;
+  padding: 60px 0;
 
 }
 .header-with-line {
@@ -439,4 +444,81 @@ button.download{
   border-radius: 60px 60px 60px 0;
   font-size: 25px;
   margin: 20px 0;  
+}
+.dots-image {
+  position: absolute;
+  left: 20px; 
+  bottom: 50px;
+  width: 20%; 
+  height: auto;
+  z-index: -1; 
+}
+
+.service-item {
+  background-color: #fff;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  height: 100%;
+}
+
+.service-item h5 {
+  margin-bottom: 15px;
+}
+
+.service-item p {
+  margin-bottom: 15px;
+}
+
+.service-item a {
+  margin-top: auto;
+}
+
+
+/************ Overview Css ************/
+
+.overview{
+  background: #f6f9fc;
+  padding: 60px 0;
+
+}
+.btn1{
+  background-color: var(--primary) !important;
+  border: none !important;
+  border-radius: 6px !important;
+  color: var(--light) !important;
+  padding: 8px 19px !important;
+
+}
+.btn2{
+  color: #081828;
+  border: none;
+  padding: 10px 25px;
+  margin: 0 10px !important;
+  background-color: white;
+  border-radius: 6px !important;
+  box-shadow: 0px 0px 20px 0px rgba(52, 49, 75, 0.1);
+}
+ul {
+  list-style: none; 
+  padding-left: 0;
+}
+ul li {
+  position: relative; 
+  padding-left: 25px; 
+  margin-bottom: 10px;  
+}
+ul li::before {
+  content: "\f00c"; 
+  font-family: "FontAwesome"; 
+  position: absolute;
+  left: 0; 
+  top: 0; 
+  color: #4CAF50; 
+  font-size: 16px;
+}
+
+/************ screenshot Css ************/
+.screeenshot{
+  text-align: center;
 }
