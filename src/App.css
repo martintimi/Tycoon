@@ -520,5 +520,89 @@ ul li::before {
 
 /************ screenshot Css ************/
 .screeenshot{
+  text-align: center !important;
+  padding: 60px 0;
+
+}
+.header-with-line2 {
+  display: inline-block;
+  position: relative;
+  font-weight: bold;
+  font-size: 2rem;
+  color: #1C2E49;
+  padding-bottom: 24px !important;
+}
+
+.header-with-line2::after {
+  content: '';
+  display: block;
+  width: 53px; 
+  height: 2px; 
+  background-color: var(--primary);
+  position: absolute;
+  bottom: -5px;
+  left: 100px;
+}
+/* .single-screen{
+  display: flex;
+ vertical-align: top;
+ white-space: normal;
+}
+.single-screen img{
+  width: 24%;
+  height: auto;
+  gap: 10;
+} */
+
+
+/* Styling for the screenshot section */
+.screenshot {
+  padding: 2rem;
+  text-align: center; 
+}
+
+.carousel-indicators li {
+  background-color: black !important;
+  border-radius: 50% !important;
+  width: 12px;
+  height: 12px;
+  margin: 1px;
+}
+
+.carousel-indicators .active {
+  background-color: darkblue !important;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  display: none;
+}
+
+.custom-carousel .carousel-indicators {
+  position: absolute;
+  bottom: -30px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+.img_size{
+  width: 23% !important;
+  height: auto;
+  transition: 2s;
+}
+.img_size:hover{
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+
+/* Pricing style */
+
+.pricing{
+  background: #f6f9fc;
   text-align: center;
+  
 }
