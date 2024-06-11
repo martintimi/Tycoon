@@ -9,6 +9,7 @@ import Testimonials from './components/Testimonials';
 import Footer from './components/Footer';
 import Team from './components/Team';
 import Video from './components/Video';
+import Blog from './components/Blog';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { BsFillPatchQuestionFill } from "react-icons/bs";
 
@@ -27,6 +28,7 @@ function App(){
       <Testimonials/>
       <Team/>
       <Video/>
+      <Blog/>
       <Footer/>
     </div>
   );
