@@ -29,7 +29,7 @@ function NavBar() {
     <Navbar expand="lg" className={scrolled ? "scrolled" : ""}>
       <Container>
         <Navbar.Brand href="#home">
-            <h2 className="text-light pt-1">TYC.</h2>
+          <h2 className="text-light pt-1">TYC.</h2>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav">
           <span className="navber-toggler-icon"></span>
@@ -71,8 +71,8 @@ function NavBar() {
               onClick={() => onUpdateActiveLink("projects")}
             >
               Pricing
-            </Nav.Link> 
-              <Nav.Link
+            </Nav.Link>
+            <Nav.Link
               href="#projects"
               className={
                 activelink === "projects" ? "active navbar-link" : "navbar-link"
@@ -100,14 +100,12 @@ function NavBar() {
               Contact
             </Nav.Link>
           </Nav>
-          <span className="navber-text">
-            <div className="social-icon">
-              
-             
-             
-            </div>
-            <button className="vvd" onClick={() => console.log("connect")}>
-              {" "}
+          <span className="navbar-text">
+            <div className="social-icon"></div>
+            <button
+              className={`vvd ${scrolled ? "scrolled" : ""}`}
+              onClick={() => console.log("connect")}
+            >
               <span>Let's connect</span>
             </button>
           </span>

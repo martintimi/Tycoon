@@ -10,6 +10,7 @@ import Footer from './components/Footer';
 import Team from './components/Team';
 import Video from './components/Video';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import { BsFillPatchQuestionFill } from "react-icons/bs";
 
 
 
