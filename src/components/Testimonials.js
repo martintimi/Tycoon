@@ -6,8 +6,8 @@ function Testimonials(){
 
     return(
         <section className='testimonials'> 
-                 <span className="text-primary d-block">SCREENSHOTS</span>
-        <h1 className="header-with-line2 pt-3">App Screenshots</h1>
+                 <span className="text-primary d-block">WHAT SAYE'S OUR CLIENTS</span>
+        <h1 className="header-with-line2 pt-3">Our Testimonials</h1>
         <p className='py-5'>
           There are many variations of passages of Lorem Ipsum available, but <br />
           the majority have suffered alteration in some form.

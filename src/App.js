@@ -8,6 +8,7 @@ import Pricing from './components/Pricing';
 import Testimonials from './components/Testimonials';
 import Footer from './components/Footer';
 import Team from './components/Team';
+import Video from './components/Video';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 
@@ -24,6 +25,7 @@ function App(){
       <Pricing/>
       <Testimonials/>
       <Team/>
+      <Video/>
       <Footer/>
     </div>
   );

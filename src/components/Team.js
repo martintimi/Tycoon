@@ -25,8 +25,8 @@ function Team() {
 
     return (
         <section className="team">
-            <span className="text-primary d-block">PRICING TABLE</span>
-            <h1 className="header-with-line2 pt-3">Our Pricing Plan</h1>
+            <span className="text-primary d-block">MEET OUR CREATIVE TEAM</span>
+            <h1 className="header-with-line2 pt-3">Our Awesome Team        </h1>
             <p>
                 There are many variations of passages of Lorem Ipsum available, but <br />
                 the majority have suffered alteration in some form.
