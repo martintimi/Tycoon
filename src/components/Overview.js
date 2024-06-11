@@ -26,7 +26,7 @@ function Overview() {
               cillum dolore eu fugiat nulla .Nemo en ipsam voluptatem quia
               voluptas sit asper.
             </p>
-            <ul>
+            <ul className="overview_ul">
               <li>Commitment to excellence</li>
               <li>Clients are our partners</li>
               <li>Fun is an absolute must</li>

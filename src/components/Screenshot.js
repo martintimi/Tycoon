@@ -1,6 +1,7 @@
 import React from 'react';
 import Carousel from 'react-bootstrap/Carousel';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import { Container } from "react-bootstrap";
 import Screen1 from '../assets/images/screen1.jpeg';
 import Screen2 from '../assets/images/screen2.jpeg';
 import Screen3 from '../assets/images/screen3.jpeg';
@@ -13,6 +14,7 @@ import Screen5 from '../assets/images/screen5.jpeg';
 function Screenshot() {
   return (
     <section className="screenshot">
+      <Container>
       <div>
         <span className="text-primary d-block">SCREENSHOTS</span>
         <h1 className="header-with-line2 pt-3">App Screenshots</h1>
@@ -95,6 +97,7 @@ function Screenshot() {
           </div>
         </Carousel.Item>
       </Carousel>
+      </Container>
     </section>
   );
 }

@@ -5,6 +5,9 @@ import Features from './components/Features';
 import Overview from './components/Overview';
 import Screenshot from './components/Screenshot';
 import Pricing from './components/Pricing';
+import Testimonials from './components/Testimonials';
+import Footer from './components/Footer';
+import Team from './components/Team';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 
@@ -19,6 +22,9 @@ function App(){
       <Overview/>
       <Screenshot/>
       <Pricing/>
+      <Testimonials/>
+      <Team/>
+      <Footer/>
     </div>
   );
 }
