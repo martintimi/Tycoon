@@ -10,6 +10,7 @@ import Footer from './components/Footer';
 import Team from './components/Team';
 import Video from './components/Video';
 import Blog from './components/Blog';
+import Newsletter from './components/Newsletter';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { BsFillPatchQuestionFill } from "react-icons/bs";
 
@@ -29,6 +30,7 @@ function App(){
       <Team/>
       <Video/>
       <Blog/>
+      <Newsletter/>
       <Footer/>
     </div>
   );
