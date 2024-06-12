@@ -1427,33 +1427,126 @@ h4 a{
   color: grey;
   font-weight: 300;
 }
+/* AppStoreButtons.css */
 
-/* Newsletter css */
-
-.newsletter{
-  background-color: rgb(247,249,253);
-  padding: 80px 0;
-  /* width: 100% !important; */
+.newsletter {
+  background-color: rgb(246,249,252);
+  padding: 100px 0 !important;
 }
 
-.wrapper2{
-  background-color: var(--primary);
-  color: white;
+.wrapper2,
+.wrapper3 {
   padding: 30px;
   border-radius: 10px;
+  height: 100%; /* Ensure full height */
 }
 
- h6{
+.wrapper2 {
+  background-color: var(--primary);
+  color: white;
+}
 
+.wrapper3 {
+  background-color: white;
+}
+
+h6 {
   font-size: 27px !important;
 }
-input{
+
+input {
   background-color: white;
-  border-radius: 25px;
   border: none;
-  padding: 13px 100px;
+  text-align: left;
 }
 
-input ::placeholder{
-  align-items: start !important;
+input::placeholder,
+.email-input::placeholder {
+  text-align: left;
+  font-size: 14px;
+}
+
+.email-input {
+  text-align: left;
+  padding: 13px 19px;
+  border: none;
+  border-radius: 25px;
+  width: 60%;
+  background-color: white;
+}
+
+.btn_sign-up {
+  background-color: transparent !important;
+  border: 1px solid white !important;
+  color: white !important;
+  margin-left: 20px;
+  border-radius: 35px !important;
+  padding: 10px 33px !important;
+}
+
+.wrapper3 h4 {
+  font-size: 22px !important;
+  font-weight: 500;
+}
+.newsletter {
+  padding: 20px;
+}
+
+.wrapper2,
+.wrapper3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.email-input {
+  flex: 1;
+  padding: 10px;
+  margin-right: 10px;
+}
+
+.btn_sign-up {
+  padding: 10px 20px;
+}
+
+.app-store-buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.store-button {
+  display: flex;
+  /* align-items: center; */
+  /* justify-content: center; */
+  width: 300px;  
+  padding: 10px 15px;
+  border-radius: 25px;
+  background-color: var(--primary);
+  color: white;
+  text-decoration: none;
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.store-button .store-icon {
+  margin-right: 10px;
+  width: 30px;
+  height: 30px;
+}
+
+.store-button:hover {
+  background-color: black;
+  transform: translateY(-5px);
+}
+
+.store-button span {
+  text-align: left;
+}
+
+.store-button small {
+  display: block;
+  font-size: 10px;
 }
