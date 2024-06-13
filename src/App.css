@@ -1,7 +1,7 @@
 body{
   color: #6e657e !important;
   font-size: 16px !important;
-  font-family: "Spartan", sans-serif;
+  overflow-x: hidden;
 }
 h2{
  line-height: 50px !important;
@@ -454,7 +454,12 @@ ul li {
   padding-left: 25px; 
   margin-bottom: 10px;  
 }
-
+/* .overview img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+} */
 
 /************ screenshot Css ************/
 .screeenshot{
