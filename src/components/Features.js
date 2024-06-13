@@ -16,7 +16,7 @@ function Features() {
               but the majority have suffered alteration in some form.
             </p>
           </Col>
-          <Col xl={5} md={5}className="right-aligned">
+          <Col xl={5} md={5}className="right-sm-aligned">
             <div className="wrapper">
               <h3>4.5</h3>
               <div className="rating-wrapper">

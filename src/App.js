@@ -1,3 +1,4 @@
+import React, { useState, useEffect } from 'react';
 import './App.css';
 import NavBar from './components/NavBar';
 import Banner from './components/Banner';
@@ -11,27 +12,40 @@ import Team from './components/Team';
 import Video from './components/Video';
 import Blog from './components/Blog';
 import Newsletter from './components/Newsletter';
+import Loading from './components/Loading';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { BsFillPatchQuestionFill } from "react-icons/bs";
 
+function App() {
+  const [isLoading, setIsLoading] = useState(true);
 
+  useEffect(() => {
+    // Simulate an async action, like fetching data
+    setTimeout(() => {
+      setIsLoading(false);
+    }, 2000); // Adjust the time as needed or replace with actual data fetching
+  }, []);
 
-function App(){
-
-  return(
+  return (
     <div>
-      <NavBar/>
-      <Banner/>
-      <Features/>
-      <Overview/>
-      <Screenshot/>
-      <Pricing/>
-      <Testimonials/>
-      <Team/>
-      <Video/>
-      <Blog/>
-      <Newsletter/>
-      <Footer/>
+      {isLoading ? (
+        <Loading />
+      ) : (
+        <>
+          <NavBar />
+          <Banner />
+          <Features />
+          <Overview />
+          <Screenshot />
+          <Pricing />
+          <Testimonials />
+          <Team />
+          <Video />
+          <Blog />
+          <Newsletter />
+          <Footer />
+        </>
+      )}
     </div>
   );
 }
