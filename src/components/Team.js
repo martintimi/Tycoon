@@ -24,7 +24,7 @@ function Team() {
     };
 
     return (
-        <section className="team">
+        <section className="team" id='team'>
             <span className="text-primary d-block">MEET OUR CREATIVE TEAM</span>
             <h1 className="header-with-line2 pt-3">Our Awesome Team        </h1>
             <p>
@@ -33,7 +33,7 @@ function Team() {
             </p>
             <Container>
                 <Row>
-                    <Col xl={3} sm={12}>
+                    <Col xl={3} sm={12} md={3}>
                         <figure
                             className={`snip1543 ${hoverStates[0] ? 'hover' : ''}`}
                             onMouseEnter={() => handleMouseEnter(0)}
@@ -47,7 +47,7 @@ function Team() {
                             <a href="#"></a>
                         </figure>
                     </Col>
-                    <Col xl={3} sm={12}>
+                    <Col xl={3} sm={12} md={3}>
                         <figure
                             className={`snip1543 ${hoverStates[1] ? 'hover' : ''}`}
                             onMouseEnter={() => handleMouseEnter(1)}
@@ -61,7 +61,10 @@ function Team() {
                             <a href="#"></a>
                         </figure>
                     </Col>
-                    <Col xl={3} sm={12}>
+
+                    <Col xl={3} sm={12} md={3}>
+                   
+
                         <figure
                             className={`snip1543 ${hoverStates[2] ? 'hover' : ''}`}
                             onMouseEnter={() => handleMouseEnter(2)}
@@ -75,7 +78,8 @@ function Team() {
                             <a href="#"></a>
                         </figure>
                     </Col>
-                    <Col xl={3} sm={12}>
+                    <Col xl={3} sm={12} md={3}>
+
                         <figure
                             className={`snip1543 ${hoverStates[3] ? 'hover' : ''}`}
                             onMouseEnter={() => handleMouseEnter(3)}

@@ -4,7 +4,7 @@ import { DiAndroid, DiApple } from "react-icons/di";
 
 function Newsletter() {
   return (
-    <section className="newsletter">
+    <section className="newsletter" id="contact">
       <Container>
         <Row className="pb-5">
           <Col xl={8}>
@@ -16,7 +16,7 @@ function Newsletter() {
                   to see what it's all about.
                 </p>
               </div>
-              <div className="d-flex pb-5">
+              <div className="d-flex pb-5 pt-3">
                 <input
                   type="email"
                   placeholder="Your email address"

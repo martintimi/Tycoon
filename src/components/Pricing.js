@@ -30,7 +30,7 @@ function Pricing() {
   const masterPrice = isMonthly ? "$30" : "$360";
 
   return (
-    <section className="pricing">
+    <section className="pricing" id="pricing">
       <span className="text-primary d-block">PRICING TABLE</span>
       <h1 className="header-with-line2 pt-3">Our Pricing Plan</h1>
       <p>

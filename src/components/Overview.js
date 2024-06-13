@@ -3,7 +3,7 @@ import AppImg from "../assets/images/app-overview2.png"
 
 function Overview() {
   return (
-    <section className="overview">
+    <section className="overview" id="overview">
       <Container>
         <Row  className="align-items-center">
           <Col xs={12} md={6} xl={5}>

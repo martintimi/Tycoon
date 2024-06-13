@@ -39,7 +39,7 @@ nav.navbar {
 }
 
 nav.navbar.scrolled {
-  padding: 0px 0;
+  padding: 8px 0;
   background-color: white;
 }
 
@@ -69,15 +69,10 @@ nav.navbar .navbar-nav .nav-link.active {
   padding: 15px 26px;
   font-size: 15px;
   margin-left: 18px;
-  position: relative;
-  background-color: transparent;
-  transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out;
-  border-radius: 20px;
   background-color: white;
-  transition: background-color 0.5s, transform 0.5s;
+  transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out, transform 0.3s ease-in-out;
+  border-radius: 20px;
 }
-
-
 
 .navbar-text button.scrolled {
   color: black;
@@ -144,6 +139,7 @@ nav.navbar .navbar-nav .nav-link.active {
 .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   border-color: transparent;
 }
+
 
 
 /************ Banner Css ************/

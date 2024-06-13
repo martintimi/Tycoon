@@ -3,7 +3,7 @@ import dotsImage from "../assets/images/service-patern.png";
 
 function Features() {
   return (
-    <section className="features" id="Features">
+    <section className="features" id="features">
       <Container>
         <Row className="align-items-center">
           <Col xl={7}>

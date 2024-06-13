@@ -8,7 +8,7 @@ function Blog() {
   return (
     <section className="blog">
       <Container>
-        <div className="text-center">
+        <div className="text-center" id="blog">
           <span className="text-primary d-block">LATEST NEWS</span>
           <h1 className="header-with-line2 pt-3">Latest News & Blog</h1>
           <p className="py-5">
@@ -18,7 +18,7 @@ function Blog() {
           </p>
         </div>
         <Row>
-          <Col xl={4} sm={12}>
+          <Col xl={4} sm={12} md={4}>
             <figure class="snip1581">
               <img src={blog} alt="profile-sample2" />
               <figcaption>
@@ -34,7 +34,7 @@ function Blog() {
               industry. Lorem Ipsum has been the industry's standard.
             </p>
           </Col>
-          <Col xl={4} sm={12}>
+          <Col xl={4} sm={12} md={4}>
             <figure class="snip1581">
               <img src={blog2} alt="profile-sample7" />
               <figcaption>
@@ -51,7 +51,7 @@ function Blog() {
               industry. Lorem Ipsum has been the industry's standard.
             </p>
           </Col>
-          <Col xl={4} sm={12}>
+          <Col xl={4} sm={12} md={4}>
             <figure class="snip1581">
               <img src={blog3} alt="profile-sample6" />
               <figcaption>
