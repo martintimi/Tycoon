@@ -32,68 +32,64 @@ function Team() {
                 the majority have suffered alteration in some form.
             </p>
             <Container>
-                <Row>
-                    <Col xl={3} sm={12} md={3}>
-                        <figure
-                            className={`snip1543 ${hoverStates[0] ? 'hover' : ''}`}
-                            onMouseEnter={() => handleMouseEnter(0)}
-                            onMouseLeave={() => handleMouseLeave(0)}
-                        >
-                            <img src={ti} alt="sample108" className='w-100'/>
-                            <figcaption>
-                                <h3 className='text-light'>Dahlia Moore</h3>
-                                <p className='text-dark'>Senior Manager</p>
-                            </figcaption>
-                            <a href="#"></a>
-                        </figure>
-                    </Col>
-                    <Col xl={3} sm={12} md={3}>
-                        <figure
-                            className={`snip1543 ${hoverStates[1] ? 'hover' : ''}`}
-                            onMouseEnter={() => handleMouseEnter(1)}
-                            onMouseLeave={() => handleMouseLeave(1)}
-                        >
-                            <img src={t2} alt="sample108" className='w-100'/>
-                            <figcaption>
-                                <h3 className='text-light'>Jhone Digo</h3>
-                                <p className='text-dark'>Marketing</p>
-                            </figcaption>
-                            <a href="#"></a>
-                        </figure>
-                    </Col>
-
-                    <Col xl={3} sm={12} md={3}>
-                   
-
-                        <figure
-                            className={`snip1543 ${hoverStates[2] ? 'hover' : ''}`}
-                            onMouseEnter={() => handleMouseEnter(2)}
-                            onMouseLeave={() => handleMouseLeave(2)}
-                        >
-                            <img src={t3} alt="sample108" className='w-100'/>
-                            <figcaption>
-                                <h3 className='text-light'>Zara Tingo</h3>
-                                <p className='text-dark'>Web Developer</p>
-                            </figcaption>
-                            <a href="#"></a>
-                        </figure>
-                    </Col>
-                    <Col xl={3} sm={12} md={3}>
-
-                        <figure
-                            className={`snip1543 ${hoverStates[3] ? 'hover' : ''}`}
-                            onMouseEnter={() => handleMouseEnter(3)}
-                            onMouseLeave={() => handleMouseLeave(3)}
-                        >
-                            <img src={t4} alt="sample108" className='w-100'/>
-                            <figcaption>
-                                <h3 className='text-light'>David Zone</h3>
-                                <p className='text-dark'>SEO Expert</p>
-                            </figcaption>
-                            <a href="#"></a>
-                        </figure>
-                    </Col>
-                </Row>
+            <Row className='text-center'>
+        <Col xl={3} sm={12} md={6} className='mx-auto'>
+          <figure
+            className={`snip1543 ${hoverStates[0] ? 'hover' : ''}`}
+            onMouseEnter={() => handleMouseEnter(0)}
+            onMouseLeave={() => handleMouseLeave(0)}
+          >
+            <img src={ti} alt="sample108" className='w-100'/>
+            <figcaption>
+              <h3 className='text-light'>Dahlia Moore</h3>
+              <p className='text-dark'>Senior Manager</p>
+            </figcaption>
+            <a href="#"></a>
+          </figure>
+        </Col>
+        <Col xl={3} sm={12} md={6} className='mx-auto'>
+          <figure
+            className={`snip1543 ${hoverStates[1] ? 'hover' : ''}`}
+            onMouseEnter={() => handleMouseEnter(1)}
+            onMouseLeave={() => handleMouseLeave(1)}
+          >
+            <img src={t2} alt="sample108" className='w-100'/>
+            <figcaption>
+              <h3 className='text-light'>Jhone Digo</h3>
+              <p className='text-dark'>Marketing</p>
+            </figcaption>
+            <a href="#"></a>
+          </figure>
+        </Col>
+        <Col xl={3} sm={12} md={6} className='mx-auto'>
+          <figure
+            className={`snip1543 ${hoverStates[2] ? 'hover' : ''}`}
+            onMouseEnter={() => handleMouseEnter(2)}
+            onMouseLeave={() => handleMouseLeave(2)}
+          >
+            <img src={t3} alt="sample108" className='w-100'/>
+            <figcaption>
+              <h3 className='text-light'>Zara Tingo</h3>
+              <p className='text-dark'>Web Developer</p>
+            </figcaption>
+            <a href="#"></a>
+          </figure>
+        </Col>
+        <Col xl={3} sm={12} md={6} className='mx-auto'>
+          <figure
+            className={`snip1543 ${hoverStates[3] ? 'hover' : ''}`}
+            onMouseEnter={() => handleMouseEnter(3)}
+            onMouseLeave={() => handleMouseLeave(3)}
+          >
+            <img src={t4} alt="sample108" className='w-100'/>
+            <figcaption>
+              <h3 className='text-light'>David Zone</h3>
+              <p className='text-dark'>SEO Expert</p>
+            </figcaption>
+            <a href="#"></a>
+          </figure>
+        </Col>
+      </Row>
             </Container>
         </section>
     );
